@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Personal workout</string>
+    <string name="workout_logo">Workout logo</string>
+    <string-array name="mainmenu">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string name="change_weight">Change Weight</string>
+    <string name="action_share">Share</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

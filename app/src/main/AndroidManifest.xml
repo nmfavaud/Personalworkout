@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nico.personalworkout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/workout_logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MondayCategoryActivity" />
+        <activity android:name=".TuesdayCategoryActivity" />
+        <activity android:name=".WednesdayCategoryActivity" />
+        <activity android:name=".ThursdayCategoryActivity" />
+        <activity android:name=".FridayCategoryActivity" />
+        <activity
+            android:name=".MondayActivity"
+            android:label="Workout"
+            android:parentActivityName=".MondayCategoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MondayCategoryActivity" />
+        </activity>
+        <activity
+            android:name=".TuesdayActivity"
+            android:label="Workout"
+            android:parentActivityName=".TuesdayCategoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TuesdayCategoryActivity" />
+        </activity>
+        <activity
+            android:name=".WednesdayActivity"
+            android:label="Workout"
+            android:parentActivityName=".WednesdayCategoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WednesdayCategoryActivity" />
+        </activity>
+        <activity
+            android:name=".ThursdayActivity"
+            android:label="Workout"
+            android:parentActivityName=".ThursdayCategoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ThursdayCategoryActivity" />
+        </activity>
+        <activity
+            android:name=".FridayActivity"
+            android:label="Workout"
+            android:parentActivityName=".FridayCategoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FridayCategoryActivity" />
+        </activity>
+        <activity
+            android:name=".ChangeWeightActivity"
+            android:label="Change Weight"
+            android:parentActivityName=".ChangeWeightActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChangeWeightActivity" />
+        </activity>
+    </application>
+
+</manifest>
